@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Vedligeholdelse",
+    "keywords": ["olieskift", "motorolie", "olie", "filter", "tændrør", "reparation", "vedligeholdelse", "mekaniker"],
+    "answer": "Vi anbefaler at skifte motorolie hver {{km_interval}} km eller hver {{time_interval}} måned. Næste service om {{days_left}} dage ({{km_left}} km). Dit VIN: {{vin}}."
+  },
+  {
+    "category": "Vedligeholdelse",
+    "keywords": ["dæk", "slidbane", "tryk", "hjul", "fælge", "gummi"],
+    "answer": "Dæktryk: {{tire_pressure}}. Næste dækskift om {{km_left}} km. Tjek trykket månedligt."
+  },
+  {
+    "category": "Vedligeholdelse",
+    "keywords": ["batteri", "ladning", "start", "motor", "tænde", "skubbe"],
+    "answer": "Batterilevetid: {{battery_life}} måneder. Hvis det er svært at starte — tjek ladningen. Spænding OK: {{battery_voltage}}V."
+  },
+  {
+    "category": "Diagnose",
+    "keywords": ["fejl", "check engine", "motorlampe", "advarsel", "defekt", "kode", "diagnose"],
+    "answer": "Motorfejl: {{error_code}}. Besøg et værksted. Du kan fortsætte med at køre, men undgå høj belastning."
+  },
+  {
+    "category": "Diagnose",
+    "keywords": ["støj", "bankende", "hvislen", "knirke", "smæld", "brummen", "underlig"],
+    "answer": "Underlig støj kan indikere slidte bremseklodser eller ophæng. Tjek: bremser, lejer, styrenderer."
+  },
+  {
+    "category": "Diagnose",
+    "keywords": ["overophedning", "temperatur", "koge", "varm", "rød nål", "kølemiddel"],
+    "answer": "Motoroverophedning! Stop straks, sluk for motoren. Tjek kølemiddelniveau: {{antifreeze_level}}. ÅBN IKKE radiatorloget!"
+  },
+  {
+    "category": "Garanti",
+    "keywords": ["garanti", "periode", "tilbagelevering", "fejl", "gratis reparation", "dækning"],
+    "answer": "Køretøjs garanti: {{warranty_days}} dage (op til {{warranty_km}} km). Garantikort i Dokumenter-sektionen."
+  },
+  {
+    "category": "Garanti",
+    "keywords": ["vin", "nummer", "identifikator", "chassis", "skilt", "ramme"],
+    "answer": "Dit VIN: {{vin}}. Findes på forruden og i registreringsattesten. Brug den til at bestille dele og tjekke historik."
+  },
+  {
+    "category": "Dokumenter",
+    "keywords": ["registrering", "ejerskab", "certifikat", "papirer", "kørekort"],
+    "answer": "Dokumenter: Ejerskab {{pts_number}}, Registrering {{sts_number}}. OSAGO-forsikring udløber {{osago_expiry}}."
+  },
+  {
+    "category": "Dokumenter",
+    "keywords": ["forsikring", "police", "bilforsikring", "numre"],
+    "answer": "OSAGO: police {{osago_policy}}. Udløber: {{osago_expiry}}. Vi husker dig 30 dage før udløb."
+  },
+  {
+    "category": "Dokumenter",
+    "keywords": ["bøde", "billetter", "overtrædelse", "trafik", "hastighed", "straf"],
+    "answer": "Aktive bøder: {{fines_count}} i alt {{fines_total}}. Tjek på gibdd.ru eller i appen."
+  },
+  {
+    "category": "Vedligeholdelse",
+    "keywords": ["bremser", "klodser", "skiver", "pedal", "blød", "afstand", "stop"],
+    "answer": "Bremseklodser: slid {{brake_pads_wear}}%. Udskift om {{km_left}} km. Tjek sikkerhedsafstand."
+  },
+  {
+    "category": "Diagnose",
+    "keywords": ["olietryk", "olielampe", "rødt lys", "lav olie", "advarsel"],
+    "answer": "Olietryk: {{oil_pressure}} bar. Kritisk lavt! Stop og tjek niveauet. Påfyld {{oil_volume}} liter."
+  },
+  {
+    "category": "Vedligeholdelse",
+    "keywords": ["kamrem", "rem", "generator", "dynamo", "udskiftning", "skifte"],
+    "answer": "Kamrem: udskift om {{km_left}} km. Interval: {{grm_interval}} km. Revning = motoroverhaling!"
+  }
+]

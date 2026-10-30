@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Maintenance",
+    "keywords": ["service", "oil change", "oil", "filter", "spark plugs", "repair", "maintenance", "mechanic"],
+    "answer": "We recommend changing engine oil every {{km_interval}} km or every {{time_interval}} months. Next service in {{days_left}} days ({{km_left}} km). Your VIN: {{vin}}."
+  },
+  {
+    "category": "Maintenance",
+    "keywords": ["tires", "tyres", "tread", "pressure", "wheels", "rims", "rubber"],
+    "answer": "Tire pressure: {{tire_pressure}}. Next tire replacement in {{km_left}} km. Check pressure monthly."
+  },
+  {
+    "category": "Maintenance",
+    "keywords": ["battery", "charge", "start", "engine", "crank", "jump start"],
+    "answer": "Battery lifespan: {{battery_life}} months. If hard to start — check charge. Voltage OK: {{battery_voltage}}V."
+  },
+  {
+    "category": "Diagnostics",
+    "keywords": ["error", "check engine", "engine light", "warning", "fault", "code", "diagnostic"],
+    "answer": "Engine error: {{error_code}}. Visit a service center. You can continue driving but avoid high loads."
+  },
+  {
+    "category": "Diagnostics",
+    "keywords": ["noise", "rattle", "squeak", "grind", "knock", "hum", "strange sound"],
+    "answer": "Strange noise may indicate worn brake pads or suspension. Check: brakes, bearings, tie rod ends."
+  },
+  {
+    "category": "Diagnostics",
+    "keywords": ["overheat", "temperature", "boil", "hot", "red gauge", "coolant"],
+    "answer": "Engine overheating! Stop immediately, turn off engine. Check coolant level: {{antifreeze_level}}. Do NOT open radiator cap!"
+  },
+  {
+    "category": "Warranty",
+    "keywords": ["warranty", "period", "return", "defect", "free repair", "coverage"],
+    "answer": "Vehicle warranty: {{warranty_days}} days (up to {{warranty_km}} km). Warranty card in Documents section."
+  },
+  {
+    "category": "Warranty",
+    "keywords": ["vin", "number", "identifier", "chassis", "plate", "frame"],
+    "answer": "Your VIN: {{vin}}. Located on windshield and in registration. Use for parts ordering and history check."
+  },
+  {
+    "category": "Documents",
+    "keywords": ["registration", "title", "certificate", "papers", "documents", "license"],
+    "answer": "Documents: Title {{pts_number}}, Registration {{sts_number}}. OSAGO expires {{osago_expiry}}."
+  },
+  {
+    "category": "Documents",
+    "keywords": ["insurance", "policy", "auto insurance", "registration"],
+    "answer": "OSAGO: policy {{osago_policy}}. Expires: {{osago_expiry}}. We'll remind you 30 days before expiry."
+  },
+  {
+    "category": "Documents",
+    "keywords": ["fine", "ticket", "violation", "traffic", "speeding", "penalty"],
+    "answer": "Active fines: {{fines_count}} totaling {{fines_total}}. Check on gibdd.ru or in app."
+  },
+  {
+    "category": "Maintenance",
+    "keywords": ["brakes", "pads", "discs", "pedal", "soft", "distance", "stopping"],
+    "answer": "Brake pads: wear {{brake_pads_wear}}%. Replace in {{km_left}} km. Check following distance."
+  },
+  {
+    "category": "Diagnostics",
+    "keywords": ["oil pressure", "oil light", "red light", "low oil", "oil warning"],
+    "answer": "Oil pressure: {{oil_pressure}} bar. Critically low! Stop and check level. Add {{oil_volume}} liters."
+  },
+  {
+    "category": "Maintenance",
+    "keywords": ["timing belt", "belt", "generator", "alternator", "replacement", "grm"],
+    "answer": "Timing belt: replace in {{km_left}} km. Interval: {{grm_interval}} km. Breakage = engine overhaul!"
+  }
+]

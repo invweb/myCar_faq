@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Wartung",
+    "keywords": ["ölwechsel", "motoröl", "öl", "filter", "zündkerzen", "reparatur", "wartung", "mechaniker"],
+    "answer": "Wir empfehlen, das Motoröl alle {{km_interval}} km oder alle {{time_interval}} Monate zu wechseln. Nächster Service in {{days_left}} Tagen ({{km_left}} km). Ihre VIN: {{vin}}."
+  },
+  {
+    "category": "Wartung",
+    "keywords": ["reifen", "profil", "druck", "räder", "felgen", "gummi"],
+    "answer": "Reifendruck: {{tire_pressure}}. Nächster Reifentausch in {{km_left}} km. Überprüfen Sie den Druck monatlich."
+  },
+  {
+    "category": "Wartung",
+    "keywords": ["batterie", "ladung", "starten", "motor", "zünden", "schubsen"],
+    "answer": "Lebensdauer der Batterie: {{battery_life}} Monate. Bei Schwierigkeiten beim Starten — Ladung prüfen. Spannung OK: {{battery_voltage}}V."
+  },
+  {
+    "category": "Diagnose",
+    "keywords": ["fehler", "check engine", "motorlampe", "warnung", "defekt", "code", "diagnose"],
+    "answer": "Motorfehler: {{error_code}}. Besuchen Sie eine Werkstatt. Sie können weiterfahren, aber vermeiden Sie hohe Belastungen."
+  },
+  {
+    "category": "Diagnose",
+    "keywords": ["geräusch", "klopfen", "quietschen", "knarren", "knacken", "brummen", "seltsam"],
+    "answer": "Seltsame Geräusche können auf verschlissene Bremsbeläge oder Aufhängung hinweisen. Überprüfen: Bremsen, Lager, Lenkendsysteme."
+  },
+  {
+    "category": "Diagnose",
+    "keywords": ["überhitzung", "temperatur", "kochen", "heiß", "roter zeiger", "kühlmittel"],
+    "answer": "Motorüberhitzung! Halten Sie sofort an, schalten Sie den Motor aus. Überprüfen Sie den Kühlmittelstand: {{antifreeze_level}}. NICHT den Radiatordeckel öffnen!"
+  },
+  {
+    "category": "Garantie",
+    "keywords": ["garantie", "laufzeit", "rückgabe", "mangel", "kostenlose reparatur", "deckung"],
+    "answer": "Fahrzeuggarantie: {{warranty_days}} Tage (bis {{warranty_km}} km). Garantiekarte im Bereich Dokumente."
+  },
+  {
+    "category": "Garantie",
+    "keywords": ["vin", "nummer", "identifikator", "fahrgestell", "schild", "rahmen"],
+    "answer": "Ihre VIN: {{vin}}. Befindet sich an der Windschutzscheibe und im Fahrzeugschein. Verwenden Sie ihn für Teilebestellungen und Historienprüfung."
+  },
+  {
+    "category": "Dokumente",
+    "keywords": ["zulassung", "schein", "zertifikat", "papiere", "dokumente", "führerschein"],
+    "answer": "Dokumente: Fahrzeugschein {{pts_number}}, Zulassung {{sts_number}}. Versicherung OSABA läuft ab am {{osago_expiry}}."
+  },
+  {
+    "category": "Dokumente",
+    "keywords": ["versicherung", "police", "kfz versicherung", "kennzeichen"],
+    "answer": "OSAGO: Police {{osago_policy}}. Läuft ab: {{osago_expiry}}. Wir erinnern Sie 30 Tage vor Ablauf."
+  },
+  {
+    "category": "Dokumente",
+    "keywords": ["bußgeld", "ticket", "ordnungswidrigkeit", "verkehr", "tempolimit", "strafe"],
+    "answer": "Aktive Bußgelder: {{fines_count}} insgesamt {{fines_total}}. Überprüfen Sie auf gibdd.ru oder in der App."
+  },
+  {
+    "category": "Wartung",
+    "keywords": ["bremsen", "beläge", "scheiben", "pedal", "weich", "abstand", "halten"],
+    "answer": "Bremsbeläge: Verschleiß {{brake_pads_wear}}%. Zu ersetzen in {{km_left}} km. Überprüfen Sie den Sicherheitsabstand."
+  },
+  {
+    "category": "Diagnose",
+    "keywords": ["öldruck", "ölampe", "rote lampe", "niedriges öl", "warnung"],
+    "answer": "Öldruck: {{oil_pressure}} bar. Kritisch niedrig! Anhalten und Ölstand prüfen. Füllen Sie {{oil_volume}} Liter nach."
+  },
+  {
+    "category": "Wartung",
+    "keywords": ["zahnriemen", "riemen", "generator", "lichtmaschine", "wechsel", "tauschen"],
+    "answer": "Zahnriemen: Zu ersetzen in {{km_left}} km. Intervall: {{grm_interval}} km. Riss = Motorschaden!"
+  }
+]

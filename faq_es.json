@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Mantenimiento",
+    "keywords": ["service", "cambio de aceite", "aceite", "filtro", "bujías", "reparación", "mantenimiento", "mecánico"],
+    "answer": "Recomendamos cambiar el aceite del motor cada {{km_interval}} km o cada {{time_interval}} meses. Próximo servicio en {{days_left}} días ({{km_left}} km). Su VIN: {{vin}}."
+  },
+  {
+    "category": "Mantenimiento",
+    "keywords": ["llantas", "neumáticos", "piso", "presión", "ruedas", "discos", "gomas"],
+    "answer": "Presión de neumáticos: {{tire_pressure}}. Próximo cambio de llantas en {{km_left}} km. Revise la presión mensualmente."
+  },
+  {
+    "category": "Mantenimiento",
+    "keywords": ["batería", "carga", "arranque", "motor", "encender", "empujar"],
+    "answer": "Vida útil de la batería: {{battery_life}} meses. Si cuesta arrancar — revise la carga. Voltaje OK: {{battery_voltage}}V."
+  },
+  {
+    "category": "Diagnóstico",
+    "keywords": ["error", "check engine", "luz del motor", "advertencia", "falla", "código", "diagnóstico"],
+    "answer": "Error del motor: {{error_code}}. Visite un centro de servicio. Puede continuar conduciendo pero evite altas cargas."
+  },
+  {
+    "category": "Diagnóstico",
+    "keywords": ["ruido", "golpe", "chirrido", "rocío", "crujido", "zumbido", "sonido raro"],
+    "answer": "Ruido extraño puede indicar pastillas de freno desgastadas o suspensión. Verifique: frenos, rodamientos, terminales de dirección."
+  },
+  {
+    "category": "Diagnóstico",
+    "keywords": ["sobrecalentamiento", "temperatura", "hierve", "caliente", "aguja roja", "refrigerante"],
+    "answer": "¡Sobrecalentamiento del motor! Deténgase inmediatamente, apague el motor. Revise nivel de anticongelante: {{antifreeze_level}}. ¡NO abra la tapa del radiador!"
+  },
+  {
+    "category": "Garantía",
+    "keywords": ["garantía", "plazo", "devolución", "defecto", "reparación gratis", "cobertura"],
+    "answer": "Garantía del vehículo: {{warranty_days}} días (hasta {{warranty_km}} km). Tarjeta de garantía en la sección Documentos."
+  },
+  {
+    "category": "Garantía",
+    "keywords": ["vin", "número", "identificador", "chasis", "placa", "bastidor"],
+    "answer": "Su VIN: {{vin}}. Ubicado en el parabrisas y en la tarjeta de registro. Úselo para pedir repuestos y verificar historial."
+  },
+  {
+    "category": "Documentos",
+    "keywords": ["registro", "título", "certificado", "papeles", "documentos", "licencia"],
+    "answer": "Documentos: Título {{pts_number}}, Registro {{sts_number}}. Seguro OSAGO expira {{osago_expiry}}."
+  },
+  {
+    "category": "Documentos",
+    "keywords": ["seguro", "póliza", "seguro auto", "matrícula"],
+    "answer": "OSAGO: póliza {{osago_policy}}. Vence: {{osago_expiry}}. Le recordaremos 30 días antes del vencimiento."
+  },
+  {
+    "category": "Documentos",
+    "keywords": ["multa", "ticket", "infracción", "tráfico", "exceso", "penalización"],
+    "answer": "Multas activas: {{fines_count}} por un total de {{fines_total}}. Verifique en gibdd.ru o en la app."
+  },
+  {
+    "category": "Mantenimiento",
+    "keywords": ["frenos", "pastillas", "discos", "pedal", "blando", "distancia", "detención"],
+    "answer": "Pastillas de freno: desgaste {{brake_pads_wear}}%. Reemplazar en {{km_left}} km. Revise la distancia de seguimiento."
+  },
+  {
+    "category": "Diagnóstico",
+    "keywords": ["presión de aceite", "luz de aceite", "luz roja", "bajo aceite", "advertencia"],
+    "answer": "Presión de aceite: {{oil_pressure}} bar. ¡Críticamente baja! Deténgase y revise el nivel. Añada {{oil_volume}} litros."
+  },
+  {
+    "category": "Mantenimiento",
+    "keywords": ["correa de distribución", "correa", "alternador", "generador", "reemplazo", "cambiar"],
+    "answer": "Correa de distribución: reemplazar en {{km_left}} km. Intervalo: {{grm_interval}} km. ¡Rotura = reparación del motor!"
+  }
+]
