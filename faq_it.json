@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Manutenzione",
+    "keywords": ["cambio olio", "olio motore", "olio", "filtro", "candele", "riparazione", "manutenzione", "meccanico"],
+    "answer": "Raccomandiamo di cambiare l'olio del motore ogni {{km_interval}} km o ogni {{time_interval}} mesi. Prossimo servizio tra {{days_left}} giorni ({{km_left}} km). Il tuo VIN: {{vin}}."
+  },
+  {
+    "category": "Manutenzione",
+    "keywords": ["pneumatici", "gomme", "profondità", "pressione", "ruote", "cerchi"],
+    "answer": "Pressione pneumatici: {{tire_pressure}}. Prossimo cambio gomme tra {{km_left}} km. Controlla la pressione mensilmente."
+  },
+  {
+    "category": "Manutenzione",
+    "keywords": ["batteria", "carica", "avviamento", "motore", "accendere", "spingere"],
+    "answer": "Durata della batteria: {{battery_life}} mesi. Se difficile da avviare — controlla la carica. Voltaggio OK: {{battery_voltage}}V."
+  },
+  {
+    "category": "Diagnosi",
+    "keywords": ["errore", "check engine", "spia motore", "avviso", "guasto", "codice", "diagnosi"],
+    "answer": "Errore del motore: {{error_code}}. Visita un centro assistenza. Puoi continuare a guidare ma evita carichi elevati."
+  },
+  {
+    "category": "Diagnosi",
+    "keywords": ["rumore", "battito", "sibilo", "grattaggio", "scricchiolio", "ronzio", "strano"],
+    "answer": "Un rumore strano può indicare pastiglie dei freni usurate o la sospensione. Controlla: freni, cuscinetti, terminali dello sterzo."
+  },
+  {
+    "category": "Diagnosi",
+    "keywords": "surriscaldamento", "temperatura", "bollire", "caldo", "ago rosso", "antigelo"],
+    "answer": "Surriscaldamento del motore! Fermati immediatamente, spegni il motore. Controlla il livello dell'antigelo: {{antifreeze_level}}. NON aprire il tappo del radiatore!"
+  },
+  {
+    "category": "Garanzia",
+    "keywords": ["garanzia", "periodo", "resituzione", "difetto", "riparazione gratuita", "copertura"],
+    "answer": "Garanzia del veicolo: {{warranty_days}} giorni (fino a {{warranty_km}} km). Carta di garanzia nella sezione Documenti."
+  },
+  {
+    "category": "Garanzia",
+    "keywords": ["vin", "numero", "identificatore", "telaio", "targa", "scocca"],
+    "answer": "Il tuo VIN: {{vin}}. Si trova sul parabrezza e sul libretto di circolazione. Usalo per ordinare pezzi e verificare la storia."
+  },
+  {
+    "category": "Documenti",
+    "keywords": ["immatricolazione", "libretto", "certificato", "documenti", "patente"],
+    "answer": "Documenti: Libretto {{pts_number}}, Immatricolazione {{sts_number}}. Assicurazione OSAGO scade il {{osago_expiry}}."
+  },
+  {
+    "category": "Documenti",
+    "keywords": ["assicurazione", "polizza", "assicurazione auto", "bollo"],
+    "answer": "OSAGO: polizza {{osago_policy}}. Scade: {{osago_expiry}}. Ti ricorderemo 30 giorni prima della scadenza."
+  },
+  {
+    "category": "Documenti",
+    "keywords": ["multa", "verbale", "infrazione", "traffico", "eccesso", "penalità"],
+    "answer": "Multe attive: {{fines_count}} per un totale di {{fines_total}}. Controlla su gibdd.ru o nell'app."
+  },
+  {
+    "category": "Manutenzione",
+    "keywords": ["freni", "pastiglie", "dischi", "pedale", "morbido", "distanza", "frenata"],
+    "answer": "Pastiglie dei freni: usura {{brake_pads_wear}}%. Da sostituire tra {{km_left}} km. Controlla la distanza di sicurezza."
+  },
+  {
+    "category": "Diagnosi",
+    "keywords": ["pressione olio", "spia olio", "luce rossa", "basso olio", "avviso"],
+    "answer": "Pressione olio: {{oil_pressure}} bar. Criticamente bassa! Fermati e controlla il livello. Aggiungi {{oil_volume}} litri."
+  },
+  {
+    "category": "Manutenzione",
+    "keywords": ["cinghia distribuzione", "cinghia", "alternatore", "dinamo", "sostituzione", "cambiare"],
+    "answer": "Cinghia di distribuzione: da sostituire tra {{km_left}} km. Intervallo: {{grm_interval}} km. Rottura = riparazione del motore!"
+  }
+]

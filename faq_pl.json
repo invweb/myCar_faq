@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Konserwacja",
+    "keywords": ["wymiana oleju", "olej silnikowy", "olej", "filtr", " świeczki", "naprawa", "konserwacja", "mechanik"],
+    "answer": "Zalecamy wymianę oleju silnikowego co {{km_interval}} km lub co {{time_interval}} miesięcy. Następny serwis za {{days_left}} dni ({{km_left}} km). Twoje VIN: {{vin}}."
+  },
+  {
+    "category": "Konserwacja",
+    "keywords": ["opony", "bieżnik", "ciśnienie", "koła", "felgi", "gumy"],
+    "answer": "Ciśnienie w oponach: {{tire_pressure}}. Następna wymiana opon za {{km_left}} km. Sprawdzaj ciśnienie co miesiąc."
+  },
+  {
+    "category": "Konserwacja",
+    "keywords": ["akumulator", "ładowanie", "rozruch", "silnik", "uruchomić", "pchać"],
+    "answer": "Żywotność akumulatora: {{battery_life}} miesięcy. Jeśli trudno odpalić — sprawdź ładowanie. Napięcie OK: {{battery_voltage}}V."
+  },
+  {
+    "category": "Diagnostyka",
+    "keywords": ["błąd", "check engine", "lampka silnika", "ostrzeżenie", "ustere", "kod", "diagnostyka"],
+    "answer": "Błąd silnika: {{error_code}}. Odwiedź warsztat. Możesz kontynuować jazdę, ale unikaj wysokich obciążeń."
+  },
+  {
+    "category": "Diagnostyka",
+    "keywords": ["odgłos", "stukanie", "piszczenie", "skrzypienie", "trzask", "buczenie", "dziwny"],
+    "answer": "Dziwny odgłos może wskazywać na zużyte klocki hamulcowe lub zawieszenie. Sprawdź: hamulce, łożyska, końcówki drążków kierowniczych."
+  },
+  {
+    "category": "Diagnostyka",
+    "keywords": ["przegrzanie", "temperatura", "gotować", "gorący", "czerwona igła", "płyn chłodniczy"],
+    "answer": "Przegrzanie silnika! Natychmiast się zatrzymaj, wyłącz silnik. Sprawdź poziom płynu chłodniczego: {{antifreeze_level}}. NIE OTWIERAJ KORKA RADIATORA!"
+  },
+  {
+    "category": "Gwarancja",
+    "keywords": ["gwarancja", "czas", "zwrot", "wada", "darmowa naprawa", "pokrycie"],
+    "answer": "Gwarancja pojazdu: {{warranty_days}} dni (do {{warranty_km}} km). Karta gwarancyjna w sekcji Dokumenty."
+  },
+  {
+    "category": "Gwarancja",
+    "keywords": ["vin", "numer", "identyfikator", "podwozie", "tablica", "ramę"],
+    "answer": "Twoje VIN: {{vin}}. Znajduje się na szybie przedniej i w dowodzie rejestracyjnym. Użyj go do zamawiania części i sprawdzania historii."
+  },
+  {
+    "category": "Dokumenty",
+    "keywords": ["rejestracja", "dowód", "certyfikat", "dokumenty", "prawo jazdy"],
+    "answer": "Dokumenty: Dowód {{pts_number}}, Rejestracja {{sts_number}}. Ubezpieczenie OSAGO wygasa {{osago_expiry}}."
+  },
+  {
+    "category": "Dokumenty",
+    "keywords": ["ubezpieczenie", "polisa", "ubezpieczenie samochodowe", "tablice"],
+    "answer": "OSAGO: polisa {{osago_policy}}. Wygasa: {{osago_expiry}}. Przypomnimy Ci 30 dni przed wygaśnięciem."
+  },
+  {
+    "category": "Dokumenty",
+    "keywords": ["mandat", "ticket", "wykroczenie", "ruch drogowy", "prędkość", "kara"],
+    "answer": "Aktywne mandaty: {{fines_count}} łącznie {{fines_total}}. Sprawdź na gibdd.ru lub w aplikacji."
+  },
+  {
+    "category": "Konserwacja",
+    "keywords": ["hamulce", "klocki", "tarcze", "pedał", "miękki", "odległość", "hamowanie"],
+    "answer": "Klocki hamulcowe: zużycie {{brake_pads_wear}}%. Wymienić za {{km_left}} km. Sprawdź odległość bezpieczeństwa."
+  },
+  {
+    "category": "Diagnostyka",
+    "keywords": ["ciśnienie oleju", "lampka oleju", "czerwona lampka", "niski olej", "ostrzeżenie"],
+    "answer": "Ciśnienie oleju: {{oil_pressure}} bar. Krytycznie niskie! Zatrzymaj się i sprawdź poziom. Dolej {{oil_volume}} litrów."
+  },
+  {
+    "category": "Konserwacja",
+    "keywords": ["pas rozrządu", "pas", "alternator", "prądnica", "wymiana", "zmienić"],
+    "answer": "Pas rozrządu: wymienić za {{km_left}} km. Interwał: {{grm_interval}} km. Zerwanie = naprawa silnika!"
+  }
+]

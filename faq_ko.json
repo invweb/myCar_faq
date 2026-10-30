@@ -1,0 +1,72 @@
+[
+  {
+    "category": "정비",
+    "keywords": ["오일 교환", "엔진 오일", "오일", "필터", "스파크 플러그", "수리", "정비", "메카닉"],
+    "answer": "엔진 오일은 {{km_interval}}km 또는 {{time_interval}}개월마다 교환하는 것을 권장합니다. 다음 서비스는 {{days_left}}일 후 ({{km_left}}km). VIN: {{vin}}."
+  },
+  {
+    "category": "정비",
+    "keywords": ["타이어", "트레드", "압력", "바퀴", "휠", "고무"],
+    "answer": "타이어 공기압: {{tire_pressure}}. 다음 타이어 교체는 {{km_left}}km 후. 월간 공기압 확인 권장."
+  },
+  {
+    "category": "정비",
+    "keywords": ["배터리", "충전", "시동", "엔진", "시동걸기", "-push"],
+    "answer": "배터리 수명: {{battery_life}}개월. 시동이 잘 안 걸리면 — 충전 확인. 전압 정상: {{battery_voltage}}V."
+  },
+  {
+    "category": "진단",
+    "keywords": ["오류", "check engine", "엔진 경고등", "경고", "고장", "코드", "진단"],
+    "answer": "엔진 오류: {{error_code}}. 서비스 센터를 방문하세요. 주행은 가능하지만 고부하 운전을 피하세요."
+  },
+  {
+    "category": "진단",
+    "keywords": ["소음", "둔탁한 소리", "삐걱거림", "그라인딩", "딸깍", "윙윙", "이상한"],
+    "answer": "이상한 소음은 브레이크 패드 마모 또는 서스펜션 문제를 나타낼 수 있습니다. 확인: 브레이크, 베어링, 타이로드."
+  },
+  {
+    "category": "진단",
+    "keywords": ["과열", "온도", "끓음", "뜨거운", "빨간 바늘", "부동액"],
+    "answer": "엔진 과열! 즉시 멈추고 엔진을 끄세요. 부동액 레벨 확인: {{antifreeze_level}}. 라디에이터 캡을 열지 마세요!"
+  },
+  {
+    "category": "보증",
+    "keywords": ["보증", "기간", "반품", "결함", "무료 수리", "커버리지"],
+    "answer": "차량 보증: {{warranty_days}}일 ({{warranty_km}}km까지). 보증서는 문서 섹션에서 확인하세요."
+  },
+  {
+    "category": "보증",
+    "keywords": ["vin", "번호", "식별자", "섀시", "플레이트", "프레임"],
+    "answer": "VIN: {{vin}}. 앞유리와 등록증에 있습니다. 부품 주문 및 이력 확인에 사용하세요."
+  },
+  {
+    "category": "문서",
+    "keywords": ["등록", "소유권", "인증서", "서류", "운전면허증"],
+    "answer": "문서: 소유권 {{pts_number}}, 등록 {{sts_number}}. OSAGO 보험 만료일: {{osago_expiry}}."
+  },
+  {
+    "category": "문서",
+    "keywords": ["보험", "정책", "자동차 보험", "번호판"],
+    "answer": "OSAGO: 정책 {{osago_policy}}. 만료: {{osago_expiry}}. 만료 30일 전에 알려드리겠습니다."
+  },
+  {
+    "category": "문서",
+    "keywords": ["범칙금", "티켓", "위반", "교통", "과속", "벌금"],
+    "answer": "미결 범칙금: {{fines_count}}건 총 {{fines_total}}. gibdd.ru 또는 앱에서 확인하세요."
+  },
+  {
+    "category": "정비",
+    "keywords": ["브레이크", "패드", "디스크", "페달", "부드러운", "거리", "정차"],
+    "answer": "브레이크 패드: 마모도 {{brake_pads_wear}}%. {{km_left}}km 후 교체. 안전 거리를 확인하세요."
+  },
+  {
+    "category": "진단",
+    "keywords": ["오일 압력", "오일 램프", "빨간 불", "낮은 오일", "경고"],
+    "answer": "오일 압력: {{oil_pressure}}bar. 극도로 낮음! 멈추고 레벨을 확인하세요. {{oil_volume}}리터 보충하세요."
+  },
+  {
+    "category": "정비",
+    "keywords": ["타이밍 벨트", "벨트", "제너레이터", "다이내모", "교환", "변경"],
+    "answer": "타이밍 벨트: {{km_left}}km 후 교체. 간격: {{grm_interval}}km. 파열 = 엔진 오버홀!"
+  }
+]

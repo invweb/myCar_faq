@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Entretien",
+    "keywords": ["vidange", "huile moteur", "huile", "filtre", "bougies", "réparation", "entretien", "mécanicien"],
+    "answer": "Nous recommandons de changer l'huile moteur tous les {{km_interval}} km ou tous les {{time_interval}} mois. Prochain entretien dans {{days_left}} jours ({{km_left}} km). Votre VIN : {{vin}}."
+  },
+  {
+    "category": "Entretien",
+    "keywords": ["pneus", "gomme", "bande roulement", "pression", "roues", "jantes"],
+    "answer": "Pression des pneus : {{tire_pressure}}. Prochain changement de pneus dans {{km_left}} km. Vérifiez la pression mensuellement."
+  },
+  {
+    "category": "Entretien",
+    "keywords": ["batterie", "charge", "démarrage", "moteur", "allumer", "pousse"],
+    "answer": "Durée de vie de la batterie : {{battery_life}} mois. Si démarrage difficile — vérifiez la charge. Tension OK : {{battery_voltage}}V."
+  },
+  {
+    "category": "Diagnostic",
+    "keywords": ["erreur", "check engine", "voyant moteur", "avertissement", "panne", "code", "diagnostic"],
+    "answer": "Erreur moteur : {{error_code}}. Visitez un centre de service. Vous pouvez continuer à conduire mais évitez les charges élevées."
+  },
+  {
+    "category": "Diagnostic",
+    "keywords": ["bruit", "cognement", "crissement", "grincement", "claquement", "vrombissement", "son bizarre"],
+    "answer": "Un bruit étrange peut indiquer des plaquettes de frein usées ou la suspension. Vérifiez : freins, roulements, rotules de direction."
+  },
+  {
+    "category": "Diagnostic",
+    "keywords": ["surchauffe", "température", "bouillir", "chaud", "aiguille rouge", "antigel"],
+    "answer": "Surchauffe du moteur ! Arrêtez-vous immédiatement, éteignez le moteur. Vérifiez le niveau d'antigel : {{antifreeze_level}}. N'OUVREZ PAS le bouchon du radiateur !"
+  },
+  {
+    "category": "Garantie",
+    "keywords": ["garantie", "délai", "retour", "défaut", "réparation gratuite", "couverture"],
+    "answer": "Garantie du véhicule : {{warranty_days}} jours (jusqu'à {{warranty_km}} km). Carte de garantie dans la section Documents."
+  },
+  {
+    "category": "Garantie",
+    "keywords": ["vin", "numéro", "identifiant", "châssis", "plaque", "berceau"],
+    "answer": "Votre VIN : {{vin}}. Situé sur le pare-brise et sur la carte d'immatriculation. Utilisez-le pour commander des pièces et vérifier l'historique."
+  },
+  {
+    "category": "Documents",
+    "keywords": ["enregistrement", "titre", "certificat", "papiers", "documents", "permis"],
+    "answer": "Documents : Titre {{pts_number}}, Immatriculation {{sts_number}}. Assurance OSAGO expire le {{osago_expiry}}."
+  },
+  {
+    "category": "Documents",
+    "keywords": ["assurance", "police", "assurance auto", "immatriculation"],
+    "answer": "OSAGO : police {{osago_policy}}. Expire : {{osago_expiry}}. Nous vous rappellerons 30 jours avant l'expiration."
+  },
+  {
+    "category": "Documents",
+    "keywords": ["amende", "contravention", "infraction", "circulation", "excès vitesse", "pénalité"],
+    "answer": "Amendes actives : {{fines_count}} totalisant {{fines_total}}. Vérifiez sur gibdd.ru ou dans l'application."
+  },
+  {
+    "category": "Entretien",
+    "keywords": ["freins", "plaquettes", "disques", "pédale", "mou", "distance", "arrêt"],
+    "answer": "Plaquettes de frein : usure {{brake_pads_wear}}%. À remplacer dans {{km_left}} km. Vérifiez la distance de suivi."
+  },
+  {
+    "category": "Diagnostic",
+    "keywords": ["pression huile", "voyant huile", "voyant rouge", "basse huile", "avertissement"],
+    "answer": "Pression d'huile : {{oil_pressure}} bar. Critiquement basse ! Arrêtez et vérifiez le niveau. Ajoutez {{oil_volume}} litres."
+  },
+  {
+    "category": "Entretien",
+    "keywords": ["courroie distribution", "courroie", "alternateur", "dynamo", "remplacement", "changer"],
+    "answer": "Courroie de distribution : à remplacer dans {{km_left}} km. Intervalle : {{grm_interval}} km. Cassure = réparation du moteur !"
+  }
+]
