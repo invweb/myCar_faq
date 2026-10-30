@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Održavanje",
+    "keywords": ["zamena ulja", "motorno ulje", "ulje", "filter", " svećice", "popravka", "održavanje", "mehaničar"],
+    "answer": "Preporučujemo da menjate motorno ulje svakih {{km_interval}} km ili svakih {{time_interval}} meseci. Sledeći servis za {{days_left}} dana ({{km_left}} km). Vaš VIN: {{vin}}."
+  },
+  {
+    "category": "Održavanje",
+    "keywords": ["gume", "gazni sloj", "pritisak", "točkovi", "felne", "gumene"],
+    "answer": "Pritisak u gumama: {{tire_pressure}}. Sledeća zamena guma za {{km_left}} km. Proveravajte pritisak mesečno."
+  },
+  {
+    "category": "Održavanje",
+    "keywords": ["akumulator", "punjenje", "startovanje", "motor", "paljenje", "guranje"],
+    "answer": "Trajnost akumulatora: {{battery_life}} meseci. Ako teško startuje — proverite punjenje. Napon OK: {{battery_voltage}}V."
+  },
+  {
+    "category": "Dijagnoza",
+    "keywords": ["greška", "check engine", "lampica motora", "upozorenje", "kvar", "kod", "dijagnoza"],
+    "answer": "Greška motora: {{error_code}}. Posetite servis. Možete nastaviti vožnju ali izbegavajte velika opterećenja."
+  },
+  {
+    "category": "Dijagnoza",
+    "keywords": ["bukа", "kucanje", "škripanje", "brušenje", "škripа", "zumаnjе", "čudno"],
+    "answer": "Čudan zvuk može ukazivati na istrošene kočione pločice ili vešanje. Proverite: kočnice, ležajeve, krajnje šipke volana."
+  },
+  {
+    "category": "Dijagnoza",
+    "keywords": ["pregrevanje", "temperatura", "ključanje", "vruće", "crvena igla", "antifriz"],
+    "answer": "Pregrevanje motora! Odmah stanite, ugasite motor. Proverite nivo antifrizа: {{antifreeze_level}}. NE OTVARAJTE poklopac radijatora!"
+  },
+  {
+    "category": "Garancija",
+    "keywords": ["garancija", "rok", "povrat", "nedostatak", "besplatna popravka", "pokriće"],
+    "answer": "Garancija vozila: {{warranty_days}} dana (do {{warranty_km}} km). Garantni list u sekciji Dokumenti."
+  },
+  {
+    "category": "Garancija",
+    "keywords": ["vin", "broj", "identifikator", "šasija", "tablica", "okvir"],
+    "answer": "Vaš VIN: {{vin}}. Nalazi se na prednjem staklu i u saobraćajnoj dozvoli. Koristite za naručivanje delova i proveru istorije."
+  },
+  {
+    "category": "Dokumenti",
+    "keywords": ["registracija", "vlasništvo", "svedočanstvo", "dokumenti", "vozačka dozvola"],
+    "answer": "Dokumenti: Vlasništvo {{pts_number}}, Registracija {{sts_number}}. OSAGO osiguranje ističe {{osago_expiry}}."
+  },
+  {
+    "category": "Dokumenti",
+    "keywords": ["osiguranje", "polisa", "auto osiguranje", "tablice"],
+    "answer": "OSAGO: polisa {{osago_policy}}. Ističe: {{osago_expiry}}. Podsetićemo vas 30 dana pre isteka."
+  },
+  {
+    "category": "Dokumenti",
+    "keywords": ["kazna", "tikteta", "prekršaj", "saobraćaj", "brzina", "novčana"],
+    "answer": "Aktivne kazne: {{fines_count}} ukupno {{fines_total}}. Proverite na gibdd.ru ili u aplikaciji."
+  },
+  {
+    "category": "Održavanje",
+    "keywords": ["kočnice", "pločice", "diskovi", "pedala", "mekano", "rastojanje", "zaustavljanje"],
+    "answer": "Kočione pločice: istrošenost {{brake_pads_wear}}%. Zameniti za {{km_left}} km. Proverite bezbednosno rastojanje."
+  },
+  {
+    "category": "Dijagnoza",
+    "keywords": ["pritisak ulja", "lampica ulja", "crveno svetlo", "nisko ulje", "upozorenje"],
+    "answer": "Pritisak ulja: {{oil_pressure}} bar. Kritično nisko! Stanite i proverite nivo. Dolijte {{oil_volume}} litara."
+  },
+  {
+    "category": "Održavanje",
+    "keywords": ["zupčasti kaiš", "kaiš", "alternator", "dinamo", "zamena", "promena"],
+    "answer": "Zupčasti kaiš: zameniti za {{km_left}} km. Interval: {{grm_interval}} km. Pucanje = reparacija motora!"
+  }
+]

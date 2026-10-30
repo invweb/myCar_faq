@@ -1,0 +1,72 @@
+[
+  {
+    "category": "保养",
+    "keywords": ["换机油", "发动机机油", "机油", "滤芯", "火花塞", "维修", "保养", "技师"],
+    "answer": "我们建议每{{km_interval}}公里或每{{time_interval}}个月更换一次发动机机油。下次保养在{{days_left}}天后（{{km_left}}公里）。您的VIN：{{vin}}。"
+  },
+  {
+    "category": "保养",
+    "keywords": ["轮胎", "胎面", "气压", "车轮", "轮毂", "橡胶"],
+    "answer": "轮胎气压：{{tire_pressure}}。下次更换轮胎在{{km_left}}公里后。建议每月检查气压。"
+  },
+  {
+    "category": "保养",
+    "keywords": ["电池", "充电", "启动", "发动机", "点火", "推车"],
+    "answer": "电池寿命：{{battery_life}}个月。如果启动困难——检查充电。电压正常：{{battery_voltage}}V。"
+  },
+  {
+    "category": "诊断",
+    "keywords": ["错误", "检查引擎", "引擎指示灯", "警告", "故障", "代码", "诊断"],
+    "answer": "引擎错误：{{error_code}}。请访问服务中心。可以继续行驶，但避免高负荷。"
+  },
+  {
+    "category": "诊断",
+    "keywords": ["噪音", "敲击声", "吱吱声", "研磨声", "咔哒声", "嗡嗡声", "奇怪"],
+    "answer": "奇怪的噪音可能表示刹车片磨损或悬挂问题。检查：刹车、轴承、转向拉杆。"
+  },
+  {
+    "category": "诊断",
+    "keywords": ["过热", "温度", "沸腾", "热", "红针", "防冻液"],
+    "answer": "引擎过热！请立即停车，关闭引擎。检查防冻液液位：{{antifreeze_level}}。切勿打开水箱盖！"
+  },
+  {
+    "category": "保修",
+    "keywords": ["保修", "期限", "退货", "缺陷", "免费维修", "覆盖"],
+    "answer": "车辆保修：{{warranty_days}}天（至{{warranty_km}}公里）。保修卡在文档部分。"
+  },
+  {
+    "category": "保修",
+    "keywords": ["vin", "号码", "识别码", "底盘", "车牌", "车架"],
+    "answer": "您的VIN：{{vin}}。位于挡风玻璃和登记证上。用于订购零件和查询历史记录。"
+  },
+  {
+    "category": "文档",
+    "keywords": ["注册", "登记证", "证书", "文件", "驾照"],
+    "answer": "文件：登记证{{pts_number}}，注册{{sts_number}}。OSAGO保险到期日：{{osago_expiry}}。"
+  },
+  {
+    "category": "文档",
+    "keywords": ["保险", "保单", "车险", "牌照"],
+    "answer": "OSAGO：保单{{osago_policy}}。到期：{{osago_expiry}}。我们将在到期前30天提醒您。"
+  },
+  {
+    "category": "文档",
+    "keywords": ["罚款", "罚单", "违章", "交通", "超速", "处罚"],
+    "answer": "未结罚款：{{fines_count}}笔共计{{fines_total}}。请在gibdd.ru或应用中查询。"
+  },
+  {
+    "category": "保养",
+    "keywords": ["刹车", "刹车片", "刹车盘", "踏板", "软", "距离", "停车"],
+    "answer": "刹车片：磨损{{brake_pads_wear}}%。{{km_left}}公里后更换。请保持安全距离。"
+  },
+  {
+    "category": "诊断",
+    "keywords": ["机油压力", "机油灯", "红灯", "机油不足", "警告"],
+    "answer": "机油压力：{{oil_pressure}}bar。极低！请停车检查液位。添加{{oil_volume}}升。"
+  },
+  {
+    "category": "保养",
+    "keywords": ["正时皮带", "皮带", "发电机", " dynamos", "更换", "改变"],
+    "answer": "正时皮带：{{km_left}}公里后更换。间隔：{{grm_interval}}公里。断裂=发动机大修！"
+  }
+]
